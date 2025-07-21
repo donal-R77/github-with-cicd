@@ -24,7 +24,7 @@ jobs:
     environment:
       name: ${{ inputs.environment }}
       url: ${{ vars.URL }}
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     permissions:
       packages: read
     concurrency:
